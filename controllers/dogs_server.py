@@ -23,11 +23,13 @@ def create_dog_data():
             id: dog_data
             required:
                 - breed_name
-                - description
+                - gender
                 - from_age
                 - to_age
-                - avg_height
-                - avg_weight
+                - avg_height_min
+                - avg_height_max
+                - avg_weight_min
+                - avg_weight_max
                 - avg_drink
                 - avg_food
                 - pic_url
@@ -35,9 +37,9 @@ def create_dog_data():
                 breed_name:
                     type: string
                     description: The name of the dog's breed
-                description:
+                gender:
                     type: string
-                    description: The description of the dog's breed
+                    description: Male or female
                 from_age:
                     type: string
                     description: The start age of the health suggestions
@@ -75,7 +77,7 @@ def create_dog_data():
         return jsonify({"error": "Could not connect to the database"}), 500
     
     # Check if the request is valid
-    if not all(key in data for key in ['breed_name', 'description', 'from_age', 'to_age', 'avg_height','avg_weight','avg_drink','avg_food','pic_url']):
+    if not all(key in data for key in ['breed_name', 'gender', 'from_age', 'to_age', 'avg_height','avg_weight','avg_drink','avg_food','pic_url']):
         return jsonify({"error": "Invalid request"}), 400
 
    # Ensure that double values are rounded to two decimal places
@@ -91,12 +93,17 @@ def create_dog_data():
     except ValueError:
         return jsonify({"error": "Invalid number format"}), 400
     
+    gender = data['gender']
+    if gender not in ['Male','Female']:
+        return jsonify({"error" : "Gender must be Male or Female"}),400
+    
     if numeric_fields['from_age'] > numeric_fields['to_age']:
         return jsonify({"error":"'from_age' must be smaller than 'to_age'"}),400
 
     package_collection = db[data['breed_name']]
 
     overlapping_data = package_collection.find_one({
+        "gender": gender,
         "$and" : [
             {"from_age": {"$lt":numeric_fields['to_age']}, "to_age":{"$gt": numeric_fields['from_age']}}
             ]
@@ -109,7 +116,7 @@ def create_dog_data():
     dog_data_item = {
         "_id": str(uuid.uuid4()),
         "breed_name": data['breed_name'],
-        "description": data['description'],
+        "gender": data['gender'],
         "from_age": numeric_fields['from_age'],
         "to_age": numeric_fields['to_age'],
         "avg_height":numeric_fields['avg_height'],
@@ -186,8 +193,8 @@ def get_dog_data_by_id(dog_id):
         return jsonify({"error": str(e)}),500
 
 # 4. Get specified dog data by breed and age reange
-@dogs_blueprint.route('/dogs_data/<breed_name>/<from_age>/<to_age>', methods=['GET'])
-def get_dog_data_by_breed_and_age_range(breed_name,from_age,to_age):
+@dogs_blueprint.route('/dogs_data/<breed_name>/<gender>/<from_age>/<to_age>', methods=['GET'])
+def get_dog_data_by_breed_and_age_range(breed_name,gender,from_age,to_age):
     """
     Get dog data by its breed and age range
     ---
@@ -196,6 +203,10 @@ def get_dog_data_by_breed_and_age_range(breed_name,from_age,to_age):
           in: path
           required: true
           description: The breed_name of the dog data to retrieve
+        - name: gender
+          in: path
+          required: true
+          description: The gender of the dog
         - name: from_age
           in: path
           required: true
@@ -220,7 +231,7 @@ def get_dog_data_by_breed_and_age_range(breed_name,from_age,to_age):
     
     try:
         package_collection = db[breed_name]
-        dog_data = package_collection.find_one({"from_age":round(float(from_age),2),"to_age":round(float(to_age),2)})
+        dog_data = package_collection.find_one({"gender" : gender,"from_age":round(float(from_age),2),"to_age":round(float(to_age),2)})
         if dog_data:
             return jsonify(dog_data),200 
         return jsonify({"error":"No data found for this breed and age range"}),404
@@ -259,8 +270,8 @@ def get_all_dogs_data():
 ################################# UPDATE #################################
 
 # 6. Update dog data by breed and age range
-@dogs_blueprint.route('/dogs_data/<breed_name>/<from_age>/<to_age>', methods=['PUT'])
-def update_dog_data_by_breed_and_age_range(breed_name,from_age,to_age):
+@dogs_blueprint.route('/dogs_data/<breed_name>/<gender>/<from_age>/<to_age>', methods=['PUT'])
+def update_dog_data_by_breed_and_age_range(breed_name,gender,from_age,to_age):
     """
     Update dog data by its breed and age range
     ---
@@ -269,6 +280,10 @@ def update_dog_data_by_breed_and_age_range(breed_name,from_age,to_age):
           in: path
           required: true
           description: The breed_name of the dog data to retrieve
+        - name: gender
+          in: path
+          required: true
+          description: The gender of the dog data to retrieve
         - name: from_age
           in: path
           required: true
@@ -284,16 +299,12 @@ def update_dog_data_by_breed_and_age_range(breed_name,from_age,to_age):
           schema:
             id: UpdatedData
             optional:
-                - description
                 - avg_height
                 - avg_weight
                 - avg_drink
                 - avg_food
                 - pic_url
             properties:
-                description:
-                    type: string
-                    description: The description of the dog's breed
                 avg_height:
                     type: string
                     description: The aevrage height of the dog
@@ -328,11 +339,11 @@ def update_dog_data_by_breed_and_age_range(breed_name,from_age,to_age):
     try:
         package_collection = db[breed_name]
         updates = {"updated_at":datetime.now()}
-        for field in ['description','avg_height','avg_weight','avg_drink','avg_food','pic_url']:
+        for field in ['avg_height','avg_weight','avg_drink','avg_food','pic_url']:
             if field in data:
                 updates[field] = round(float(data[field]), 2) if field.startswith('avg_') else data[field]
         result = package_collection.update_one(
-            {"from_age":float(from_age),"to_age":float(to_age)},
+            {"from_age":float(from_age),"to_age":float(to_age),"gender":gender},
             {"$set":updates}
         )
         if result.matched_count == 0:
@@ -370,13 +381,17 @@ def delete_all_dogs_data():
         return jsonify({"error": str(e)}),500
 
 # 8. Delete dog data by breed and age range
-@dogs_blueprint.route('/dogs_data/<breed>/<from_age>/<to_age>', methods=['DELETE'])
-def delete_dog_data_by_breed_and_age(breed,from_age,to_age):
+@dogs_blueprint.route('/dogs_data/<breed>/<gender>/<from_age>/<to_age>', methods=['DELETE'])
+def delete_dog_data_by_breed_and_age(breed,gender,from_age,to_age):
     """
     Delete dog data by breed and age range
     ---
     parameters:
         - name: breed
+          in: path
+          required: true
+          description: The breed name of the dog data to delete
+        - name: gender
           in: path
           required: true
           description: The breed name of the dog data to delete
@@ -404,7 +419,7 @@ def delete_dog_data_by_breed_and_age(breed,from_age,to_age):
     
     try:
         package_collection = db[breed]
-        result = package_collection.delete_one({"from_age": float(from_age), "to_age":float(to_age)})
+        result = package_collection.delete_one({"gender" : gender, "from_age": float(from_age), "to_age":float(to_age)})
         if result.deleted_count > 0:
             return jsonify({"message": "Dog data deleted successfully"}),200
         else:
