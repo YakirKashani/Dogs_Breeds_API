@@ -229,7 +229,7 @@ def get_dog_data_by_breed_and_age_range(breed_name,from_age,to_age):
 
 
 # 5. Get all dogs data
-@dogs_blueprint.route('/dogs_data/dogs_data/all', methods=['GET'])
+@dogs_blueprint.route('/dogs_data/all', methods=['GET'])
 def get_all_dogs_data():
     """
     Retrieve a list of all dog breeds
