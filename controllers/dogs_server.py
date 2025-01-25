@@ -30,6 +30,7 @@ def create_dog_data():
                 - avg_weight
                 - avg_drink
                 - avg_food
+                - pic_url
             properties:
                 breed_name:
                     type: string
@@ -55,6 +56,9 @@ def create_dog_data():
                 avg_food:
                     type: string
                     description: The average eating recommended for the dog
+                pic_url:
+                    type: string
+                    description: URL of picture of the dog breed
     responses:
         201:
             description: The dpg data was created successfully
@@ -71,7 +75,7 @@ def create_dog_data():
         return jsonify({"error": "Could not connect to the database"}), 500
     
     # Check if the request is valid
-    if not all(key in data for key in ['breed_name', 'description', 'from_age', 'to_age', 'avg_height','avg_weight','avg_drink','avg_food']):
+    if not all(key in data for key in ['breed_name', 'description', 'from_age', 'to_age', 'avg_height','avg_weight','avg_drink','avg_food','pic_url']):
         return jsonify({"error": "Invalid request"}), 400
 
    # Ensure that double values are rounded to two decimal places
@@ -112,12 +116,12 @@ def create_dog_data():
         "avg_weight":numeric_fields['avg_weight'],
         "avg_drink":numeric_fields['avg_drink'],
         "avg_food":numeric_fields['avg_food'],
+        "pic_url": data['pic_url'],
         "created_at": datetime.now(),
         "updated_at": datetime.now()
     }
 
-    # Insert the feature toggle into the database
- #   package_collection = db[f"{data['breed_name']}_{str(numeric_fields['from_age'])}_{str(numeric_fields['to_age'])}"]
+    # Insert the dog breed into the database
     package_collection.insert_one(dog_data_item)
 
     return jsonify({"message": "Dog data created successfully", '_id': dog_data_item['_id']}), 201
@@ -256,6 +260,7 @@ def update_dog_data_by_breed_and_age_range(breed_name,from_age,to_age):
                 - avg_weight
                 - avg_drink
                 - avg_food
+                - pic_url
             properties:
                 description:
                     type: string
@@ -272,6 +277,9 @@ def update_dog_data_by_breed_and_age_range(breed_name,from_age,to_age):
                 avg_food:
                     type: string
                     description: The average eating recommended for the dog
+                pic_url:
+                    type: string
+                    description: URL of picture of the dog breed
     responses:
         200:
             description: Dog data updated successfully
@@ -291,7 +299,7 @@ def update_dog_data_by_breed_and_age_range(breed_name,from_age,to_age):
     try:
         package_collection = db[breed_name]
         updates = {"updated_at":datetime.now()}
-        for field in ['description','avg_height','avg_weight','avg_drink','avg_food']:
+        for field in ['description','avg_height','avg_weight','avg_drink','avg_food','pic_url']:
             if field in data:
                 updates[field] = round(float(data[field]), 2) if field.startswith('avg_') else data[field]
         result = package_collection.update_one(
