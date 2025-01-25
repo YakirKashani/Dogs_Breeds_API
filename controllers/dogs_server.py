@@ -46,10 +46,16 @@ def create_dog_data():
                 to_age:
                     type: string
                     description: The end age of the health suggestions
-                avg_height:
+                avg_height_min:
                     type: string
                     description: The aevrage height of the dog
-                avg_weight:
+                avg_height_max:
+                    type: string
+                    description: The aevrage height of the dog
+                avg_weight_min:
+                    type: string
+                    description: The average weight of the dog
+                avg_weight_max:
                     type: string
                     description: The average weight of the dog
                 avg_drink:
@@ -77,7 +83,7 @@ def create_dog_data():
         return jsonify({"error": "Could not connect to the database"}), 500
     
     # Check if the request is valid
-    if not all(key in data for key in ['breed_name', 'gender', 'from_age', 'to_age', 'avg_height','avg_weight','avg_drink','avg_food','pic_url']):
+    if not all(key in data for key in ['breed_name', 'gender', 'from_age', 'to_age', 'avg_height_min', 'avg_height_max', 'avg_weight_min', 'avg_weight_max','avg_drink','avg_food','pic_url']):
         return jsonify({"error": "Invalid request"}), 400
 
    # Ensure that double values are rounded to two decimal places
@@ -85,8 +91,10 @@ def create_dog_data():
         numeric_fields = {
             'from_age': round(float(data['from_age']), 2),
             'to_age': round(float(data['to_age']), 2),
-            'avg_height': round(float(data['avg_height']), 2),
-            'avg_weight': round(float(data['avg_weight']), 2),
+            'avg_height_min': round(float(data['avg_height_min']), 2),
+            'avg_height_max': round(float(data['avg_height_max']), 2),
+            'avg_weight_min': round(float(data['avg_weight_min']), 2),
+            'avg_weight_max': round(float(data['avg_weight_max']), 2),
             'avg_drink': round(float(data['avg_drink']), 2),
             'avg_food': round(float(data['avg_food']), 2)
         }
@@ -99,6 +107,12 @@ def create_dog_data():
     
     if numeric_fields['from_age'] > numeric_fields['to_age']:
         return jsonify({"error":"'from_age' must be smaller than 'to_age'"}),400
+    
+    if numeric_fields['avg_height_min'] > numeric_fields['avg_height_max']:
+        return jsonify({"error":"'avg_height_min' must be smaller than 'avg_height_max'"}),400
+    
+    if numeric_fields['avg_weight_min'] > numeric_fields['avg_weight_max']:
+        return jsonify({"error":"'avg_weight_min' must be smaller than 'avg_weight_max'"}),400
 
     package_collection = db[data['breed_name']]
 
@@ -119,8 +133,10 @@ def create_dog_data():
         "gender": data['gender'],
         "from_age": numeric_fields['from_age'],
         "to_age": numeric_fields['to_age'],
-        "avg_height":numeric_fields['avg_height'],
-        "avg_weight":numeric_fields['avg_weight'],
+        "avg_height_min":numeric_fields['avg_height_min'],
+        "avg_height_max":numeric_fields['avg_height_max'],
+        "avg_weight_min":numeric_fields['avg_weight_min'],
+        "avg_weight_max":numeric_fields['avg_weight_max'],
         "avg_drink":numeric_fields['avg_drink'],
         "avg_food":numeric_fields['avg_food'],
         "pic_url": data['pic_url'],
@@ -299,16 +315,24 @@ def update_dog_data_by_breed_and_age_range(breed_name,gender,from_age,to_age):
           schema:
             id: UpdatedData
             optional:
-                - avg_height
-                - avg_weight
+                - avg_height_min
+                - avg_height_max
+                - avg_weight_min
+                - avg_weight_max
                 - avg_drink
                 - avg_food
                 - pic_url
             properties:
-                avg_height:
+                avg_height_min:
                     type: string
                     description: The aevrage height of the dog
-                avg_weight:
+                avg_height_max:
+                    type: string
+                    description: The aevrage height of the dog
+                avg_weight_min:
+                    type: string
+                    description: The average weight of the dog
+                avg_weight_max:
                     type: string
                     description: The average weight of the dog
                 avg_drink:
@@ -336,10 +360,15 @@ def update_dog_data_by_breed_and_age_range(breed_name,gender,from_age,to_age):
     if db is None:
         return jsonify({"error": "Could not connect to the database"}), 500
     
+    if round(float(data['avg_height_min']),2) > round(float(data['avg_height_max']),2):
+        return jsonify({"error":"'avg_height_min' must be smaller than 'avg_height_max'"}),400
+    
+    if round(float(data['avg_weight_min']),2) > round(float(data['avg_weight_max']),2):
+        return jsonify({"error":"'avg_weight_min' must be smaller than 'avg_weight_max'"}),400
     try:
         package_collection = db[breed_name]
         updates = {"updated_at":datetime.now()}
-        for field in ['avg_height','avg_weight','avg_drink','avg_food','pic_url']:
+        for field in ['avg_height_min','avg_height_max', 'avg_weight_min','avg_weight_max','avg_drink','avg_food','pic_url']:
             if field in data:
                 updates[field] = round(float(data[field]), 2) if field.startswith('avg_') else data[field]
         result = package_collection.update_one(
