@@ -61,7 +61,7 @@ def create_dog_data():
                     description: URL of picture of the dog breed
     responses:
         201:
-            description: The dpg data was created successfully
+            description: The dog data was created successfully
         400:
             description: The request was invalid
         500:
@@ -97,8 +97,8 @@ def create_dog_data():
     package_collection = db[data['breed_name']]
 
     overlapping_data = package_collection.find_one({
-        "$or" : [
-            {"from_age": {"$lte":numeric_fields['to_age']}, "to_age":{"$gte": numeric_fields['from_age']}}
+        "$and" : [
+            {"from_age": {"$lt":numeric_fields['to_age']}, "to_age":{"$gt": numeric_fields['from_age']}}
             ]
         })
     
@@ -185,7 +185,7 @@ def get_dog_data_by_id(dog_id):
     except Exception as e:
         return jsonify({"error": str(e)}),500
 
-# 3. Get specified dog data by breed and age reange - TO CHECK
+# 4. Get specified dog data by breed and age reange
 @dogs_blueprint.route('/dogs_data/<breed_name>/<from_age>/<to_age>', methods=['GET'])
 def get_dog_data_by_breed_and_age_range(breed_name,from_age,to_age):
     """
@@ -227,9 +227,38 @@ def get_dog_data_by_breed_and_age_range(breed_name,from_age,to_age):
     except Exception as e:
         return jsonify({"error": str(e)}),500
 
+
+# 5. Get all dogs data
+@dogs_blueprint.route('/dogs_data/dogs_data/all', methods=['GET'])
+def get_all_dogs_data():
+    """
+    Retrieve a list of all dog breeds
+    ---
+    responses:
+        200:
+            description: Dogs' breeds retrieved successfully
+        500:
+            description: An error occurred while deleting the dog data
+    """
+    db = MongoConnectionHolder.get_db()
+    # Check if the database connection was successful
+    if db is None:
+        return jsonify({"error": "Could not connect to the database"}), 500
+    
+    try:
+        all_dogs=[]
+        for breed in db.list_collection_names():
+            breed_data = db[breed].find()
+            for dog_data in breed_data:
+                dog_data['_id'] = str(dog_data['_id'])
+                all_dogs.append(dog_data)
+        return jsonify(all_dogs),200
+    except Exception as e:
+        return jsonify({"error": str(e)}),500
+
 ################################# UPDATE #################################
 
-# 4. Update dog data by breed and age range
+# 6. Update dog data by breed and age range
 @dogs_blueprint.route('/dogs_data/<breed_name>/<from_age>/<to_age>', methods=['PUT'])
 def update_dog_data_by_breed_and_age_range(breed_name,from_age,to_age):
     """
@@ -315,7 +344,7 @@ def update_dog_data_by_breed_and_age_range(breed_name,from_age,to_age):
 
 ################################# DELETE #################################
 
-# 6. Delete all dogs data - CHECKED
+# 7. Delete all dogs data
 @dogs_blueprint.route('/dogs_data', methods=['DELETE'])
 def delete_all_dogs_data():
     """
@@ -340,7 +369,7 @@ def delete_all_dogs_data():
     except Exception as e:
         return jsonify({"error": str(e)}),500
 
-# 7. Delete dog data by breed and age range - TO CHECK
+# 8. Delete dog data by breed and age range
 @dogs_blueprint.route('/dogs_data/<breed>/<from_age>/<to_age>', methods=['DELETE'])
 def delete_dog_data_by_breed_and_age(breed,from_age,to_age):
     """
@@ -384,7 +413,7 @@ def delete_dog_data_by_breed_and_age(breed,from_age,to_age):
     except Exception as e:
         return jsonify({"error": str(e)}),500
 
-# 8. Delete dog data by UUID - TO CHECK
+# 9. Delete dog data by UUID
 @dogs_blueprint.route('/dogs_data/<dog_uuid>', methods=['DELETE'])
 def delete_dog_data_by_uuid(dog_uuid):
     """
