@@ -253,6 +253,52 @@ def get_dog_data_by_breed_and_age_range(breed_name,gender,from_age,to_age):
     except Exception as e:
         return jsonify({"error": str(e)}),500
 
+# Get specified dog data by breed and age
+@dogs_blueprint.route('/dogs_data/<breed_name>/<gender>/<age>', methods=['GET'])
+def get_dog_data_by_breed_and_age(breed_name,gender,age):
+    """
+    Get dog data by its breed and age
+    ---
+    parameters:
+        - name: breed_name
+          in: path
+          required: true
+          description: The breed_name of the dog data to retrieve
+        - name: gender
+          in: path
+          required: true
+          description: The gender of the dog
+        - name: age
+          in: path
+          required: true
+          description: The age of the dog data to retrieve
+    responses:
+        200:
+            description: Dog data retrieved successfully
+        404:
+            description: Dog data not found
+        500:
+            description: An error occurred while deleting the dog data
+    """
+
+    db = MongoConnectionHolder.get_db()
+    # Check if the database connection was successful
+    if db is None:
+        return jsonify({"error": "Could not connect to the database"}), 500
+    try:
+        age = round(float(age),2)
+        package_collection = db[breed_name]
+        dog_data = package_collection.find_one({
+            "gender": gender,
+            "from_age":{"$lte":age},
+            "to_age":{"$gte":age}
+        })
+        if dog_data:
+            return jsonify(dog_data),200
+        return jsonify({"error":"No data found for this breed and age"}),404
+    except Exception as e:
+        return jsonify({"error": str(e)}),500
+
 # 5. Get all dogs data
 @dogs_blueprint.route('/dogs_data/all', methods=['GET'])
 def get_all_dogs_data():
