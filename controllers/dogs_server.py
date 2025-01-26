@@ -5,7 +5,6 @@ import uuid
 
 dogs_blueprint = Blueprint('dogs_data', __name__)
 
-
 ################################# POST #################################
 
 # 1. Create a new dog data
@@ -254,7 +253,6 @@ def get_dog_data_by_breed_and_age_range(breed_name,gender,from_age,to_age):
     except Exception as e:
         return jsonify({"error": str(e)}),500
 
-
 # 5. Get all dogs data
 @dogs_blueprint.route('/dogs_data/all', methods=['GET'])
 def get_all_dogs_data():
@@ -283,9 +281,37 @@ def get_all_dogs_data():
     except Exception as e:
         return jsonify({"error": str(e)}),500
 
+# 6. Get all dogs breeds and URL
+@dogs_blueprint.route('/dogs_data/BreedsAndUrl', methods=['GET'])
+def get_all_dogs_breeds_and_url():
+    """
+    Retrieve a list of all dog breeds and URL picture
+    ---
+    responses:
+        200:
+            description: Dogs' breeds retrieved successfully
+        500:
+            description: An error occurred while deleting the dog data
+    """
+
+    db = MongoConnectionHolder.get_db()
+    # Check if the database connection was successful
+    if db is None:
+        return jsonify({"error": "Could not connect to the database"}), 500
+    
+    try:
+        breed_images = []
+        for breed in db.list_collection_names():
+            breed_data = db[breed].find_one({},{"_id":0,"pic_url":1})
+            if breed_data and "pic_url" in breed_data:
+                breed_images.append([breed, breed_data["pic_url"]])
+        return jsonify(breed_images),200
+    except Exception as e:
+        return jsonify({"error": str(e)}),500
+
 ################################# UPDATE #################################
 
-# 6. Update dog data by breed and age range
+# 7. Update dog data by breed and age range
 @dogs_blueprint.route('/dogs_data/<breed_name>/<gender>/<from_age>/<to_age>', methods=['PUT'])
 def update_dog_data_by_breed_and_age_range(breed_name,gender,from_age,to_age):
     """
@@ -384,7 +410,7 @@ def update_dog_data_by_breed_and_age_range(breed_name,gender,from_age,to_age):
 
 ################################# DELETE #################################
 
-# 7. Delete all dogs data
+# 8. Delete all dogs data
 @dogs_blueprint.route('/dogs_data', methods=['DELETE'])
 def delete_all_dogs_data():
     """
@@ -409,7 +435,7 @@ def delete_all_dogs_data():
     except Exception as e:
         return jsonify({"error": str(e)}),500
 
-# 8. Delete dog data by breed and age range
+# 9. Delete dog data by breed and age range
 @dogs_blueprint.route('/dogs_data/<breed>/<gender>/<from_age>/<to_age>', methods=['DELETE'])
 def delete_dog_data_by_breed_and_age(breed,gender,from_age,to_age):
     """
@@ -457,7 +483,7 @@ def delete_dog_data_by_breed_and_age(breed,gender,from_age,to_age):
     except Exception as e:
         return jsonify({"error": str(e)}),500
 
-# 9. Delete dog data by UUID
+# 10. Delete dog data by UUID
 @dogs_blueprint.route('/dogs_data/<dog_uuid>', methods=['DELETE'])
 def delete_dog_data_by_uuid(dog_uuid):
     """
