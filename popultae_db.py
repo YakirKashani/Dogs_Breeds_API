@@ -6,7 +6,7 @@ import uuid
 
 Labrador_Retriever_Male = [
     {
-        "breed_name": "Labrador Retriever",
+        "breed_name": "Labrador-Retriever",
         "gender": "Male",
         "from_age": 0.0,
         "to_age": 1.0,
@@ -19,7 +19,7 @@ Labrador_Retriever_Male = [
         "pic_url": "String"
     },
     {
-        "breed_name": "Labrador Retriever",
+        "breed_name": "Labrador-Retriever",
         "gender": "Male",
         "from_age": 1.0,
         "to_age": 2.0,
@@ -32,7 +32,7 @@ Labrador_Retriever_Male = [
         "pic_url": "String"
     },
     {
-        "breed_name": "Labrador Retriever",
+        "breed_name": "Labrador-Retriever",
         "gender": "Male",
         "from_age": 2.0,
         "to_age": 3.0,
@@ -45,7 +45,7 @@ Labrador_Retriever_Male = [
         "pic_url": "String"
     },
     {
-        "breed_name": "Labrador Retriever",
+        "breed_name": "Labrador-Retriever",
         "gender": "Male",
         "from_age": 3.0,
         "to_age": 4.0,
@@ -58,7 +58,7 @@ Labrador_Retriever_Male = [
         "pic_url": "String"
     },
     {
-        "breed_name": "Labrador Retriever",
+        "breed_name": "Labrador-Retriever",
         "gender": "Male",
         "from_age": 4.0,
         "to_age": 5.0,
@@ -71,7 +71,7 @@ Labrador_Retriever_Male = [
         "pic_url": "String"
     },
     {
-        "breed_name": "Labrador Retriever",
+        "breed_name": "Labrador-Retriever",
         "gender": "Male",
         "from_age": 5.0,
         "to_age": 6.0,
@@ -84,7 +84,7 @@ Labrador_Retriever_Male = [
         "pic_url": "String"
     },
     {
-        "breed_name": "Labrador Retriever",
+        "breed_name": "Labrador-Retriever",
         "gender": "Male",
         "from_age": 6.0,
         "to_age": 7.0,
@@ -97,7 +97,7 @@ Labrador_Retriever_Male = [
         "pic_url": "String"
     },
     {
-        "breed_name": "Labrador Retriever",
+        "breed_name": "Labrador-Retriever",
         "gender": "Male",
         "from_age": 7.0,
         "to_age": 8.0,
@@ -110,7 +110,7 @@ Labrador_Retriever_Male = [
         "pic_url": "String"
     },
     {
-        "breed_name": "Labrador Retriever",
+        "breed_name": "Labrador-Retriever",
         "gender": "Male",
         "from_age": 8.0,
         "to_age": 9.0,
@@ -123,7 +123,7 @@ Labrador_Retriever_Male = [
         "pic_url": "String"
     },
     {
-        "breed_name": "Labrador Retriever",
+        "breed_name": "Labrador-Retriever",
         "gender": "Male",
         "from_age": 9.0,
         "to_age": 10.0,
@@ -138,7 +138,7 @@ Labrador_Retriever_Male = [
 ]
 Labrador_Retriever_Female = [
     {
-        "breed_name": "Labrador Retriever",
+        "breed_name": "Labrador-Retriever",
         "gender": "Female",
         "from_age": 0.0,
         "to_age": 1.0,
@@ -151,7 +151,7 @@ Labrador_Retriever_Female = [
         "pic_url": "String"
     },
     {
-        "breed_name": "Labrador Retriever",
+        "breed_name": "Labrador-Retriever",
         "gender": "Female",
         "from_age": 1.0,
         "to_age": 2.0,
@@ -164,7 +164,7 @@ Labrador_Retriever_Female = [
         "pic_url": "String"
     },
     {
-        "breed_name": "Labrador Retriever",
+        "breed_name": "Labrador-Retriever",
         "gender": "Female",
         "from_age": 2.0,
         "to_age": 3.0,
@@ -177,7 +177,7 @@ Labrador_Retriever_Female = [
         "pic_url": "String"
     },
     {
-        "breed_name": "Labrador Retriever",
+        "breed_name": "Labrador-Retriever",
         "gender": "Female",
         "from_age": 3.0,
         "to_age": 4.0,
@@ -190,7 +190,7 @@ Labrador_Retriever_Female = [
         "pic_url": "String"
     },
     {
-        "breed_name": "Labrador Retriever",
+        "breed_name": "Labrador-Retriever",
         "gender": "Female",
         "from_age": 4.0,
         "to_age": 5.0,
@@ -203,7 +203,7 @@ Labrador_Retriever_Female = [
         "pic_url": "String"
     },
     {
-        "breed_name": "Labrador Retriever",
+        "breed_name": "Labrador-Retriever",
         "gender": "Female",
         "from_age": 5.0,
         "to_age": 6.0,
@@ -216,7 +216,7 @@ Labrador_Retriever_Female = [
         "pic_url": "String"
     },
     {
-        "breed_name": "Labrador Retriever",
+        "breed_name": "Labrador-Retriever",
         "gender": "Female",
         "from_age": 6.0,
         "to_age": 7.0,
@@ -229,7 +229,7 @@ Labrador_Retriever_Female = [
         "pic_url": "String"
     },
     {
-        "breed_name": "Labrador Retriever",
+        "breed_name": "Labrador-Retriever",
         "gender": "Female",
         "from_age": 7.0,
         "to_age": 8.0,
@@ -242,7 +242,7 @@ Labrador_Retriever_Female = [
         "pic_url": "String"
     },
     {
-        "breed_name": "Labrador Retriever",
+        "breed_name": "Labrador-Retriever",
         "gender": "Female",
         "from_age": 8.0,
         "to_age": 9.0,
@@ -255,7 +255,7 @@ Labrador_Retriever_Female = [
         "pic_url": "String"
     },
     {
-        "breed_name": "Labrador Retriever",
+        "breed_name": "Labrador-Retriever",
         "gender": "Female",
         "from_age": 9.0,
         "to_age": 10.0,
@@ -270,7 +270,7 @@ Labrador_Retriever_Female = [
 ]
 Golden_Retriever_Male = [
     {
-        "breed_name": "Golden Retriever",
+        "breed_name": "Golden-Retriever",
         "gender": "Male",
         "from_age": 0.0,
         "to_age": 1.0,
@@ -283,7 +283,7 @@ Golden_Retriever_Male = [
         "pic_url": "String"
     },
     {
-        "breed_name": "Golden Retriever",
+        "breed_name": "Golden-Retriever",
         "gender": "Male",
         "from_age": 1.0,
         "to_age": 2.0,
@@ -296,7 +296,7 @@ Golden_Retriever_Male = [
         "pic_url": "String"
     },
     {
-        "breed_name": "Golden Retriever",
+        "breed_name": "Golden-Retriever",
         "gender": "Male",
         "from_age": 2.0,
         "to_age": 3.0,
@@ -309,7 +309,7 @@ Golden_Retriever_Male = [
         "pic_url": "String"
     },
     {
-        "breed_name": "Golden Retriever",
+        "breed_name": "Golden-Retriever",
         "gender": "Male",
         "from_age": 3.0,
         "to_age": 4.0,
@@ -322,7 +322,7 @@ Golden_Retriever_Male = [
         "pic_url": "String"
     },
     {
-        "breed_name": "Golden Retriever",
+        "breed_name": "Golden-Retriever",
         "gender": "Male",
         "from_age": 4.0,
         "to_age": 5.0,
@@ -335,7 +335,7 @@ Golden_Retriever_Male = [
         "pic_url": "String"
     },
     {
-        "breed_name": "Golden Retriever",
+        "breed_name": "Golden-Retriever",
         "gender": "Male",
         "from_age": 5.0,
         "to_age": 6.0,
@@ -348,7 +348,7 @@ Golden_Retriever_Male = [
         "pic_url": "String"
     },
     {
-        "breed_name": "Golden Retriever",
+        "breed_name": "Golden-Retriever",
         "gender": "Male",
         "from_age": 6.0,
         "to_age": 7.0,
@@ -361,7 +361,7 @@ Golden_Retriever_Male = [
         "pic_url": "String"
     },
     {
-        "breed_name": "Golden Retriever",
+        "breed_name": "Golden-Retriever",
         "gender": "Male",
         "from_age": 7.0,
         "to_age": 8.0,
@@ -374,7 +374,7 @@ Golden_Retriever_Male = [
         "pic_url": "String"
     },
     {
-        "breed_name": "Golden Retriever",
+        "breed_name": "Golden-Retriever",
         "gender": "Male",
         "from_age": 8.0,
         "to_age": 9.0,
@@ -387,7 +387,7 @@ Golden_Retriever_Male = [
         "pic_url": "String"
     },
     {
-        "breed_name": "Golden Retriever",
+        "breed_name": "Golden-Retriever",
         "gender": "Male",
         "from_age": 9.0,
         "to_age": 10.0,
@@ -402,7 +402,7 @@ Golden_Retriever_Male = [
 ]
 Golden_Retriever_Female=[    
     {
-        "breed_name": "Golden Retriever",
+        "breed_name": "Golden-Retriever",
         "gender": "Female",
         "from_age": 0.0,
         "to_age": 1.0,
@@ -415,7 +415,7 @@ Golden_Retriever_Female=[
         "pic_url": "String"
     },
     {
-        "breed_name": "Golden Retriever",
+        "breed_name": "Golden-Retriever",
         "gender": "Female",
         "from_age": 1.0,
         "to_age": 2.0,
@@ -428,7 +428,7 @@ Golden_Retriever_Female=[
         "pic_url": "String"
     },
     {
-        "breed_name": "Golden Retriever",
+        "breed_name": "Golden-Retriever",
         "gender": "Female",
         "from_age": 2.0,
         "to_age": 3.0,
@@ -441,7 +441,7 @@ Golden_Retriever_Female=[
         "pic_url": "String"
     },
     {
-        "breed_name": "Golden Retriever",
+        "breed_name": "Golden-Retriever",
         "gender": "Female",
         "from_age": 3.0,
         "to_age": 4.0,
@@ -454,7 +454,7 @@ Golden_Retriever_Female=[
         "pic_url": "String"
     },
     {
-        "breed_name": "Golden Retriever",
+        "breed_name": "Golden-Retriever",
         "gender": "Female",
         "from_age": 4.0,
         "to_age": 5.0,
@@ -467,7 +467,7 @@ Golden_Retriever_Female=[
         "pic_url": "String"
     },
     {
-        "breed_name": "Golden Retriever",
+        "breed_name": "Golden-Retriever",
         "gender": "Female",
         "from_age": 5.0,
         "to_age": 6.0,
@@ -480,7 +480,7 @@ Golden_Retriever_Female=[
         "pic_url": "String"
     },
     {
-        "breed_name": "Golden Retriever",
+        "breed_name": "Golden-Retriever",
         "gender": "Female",
         "from_age": 6.0,
         "to_age": 7.0,
@@ -493,7 +493,7 @@ Golden_Retriever_Female=[
         "pic_url": "String"
     },
     {
-        "breed_name": "Golden Retriever",
+        "breed_name": "Golden-Retriever",
         "gender": "Female",
         "from_age": 7.0,
         "to_age": 8.0,
@@ -506,7 +506,7 @@ Golden_Retriever_Female=[
         "pic_url": "String"
     },
     {
-        "breed_name": "Golden Retriever",
+        "breed_name": "Golden-Retriever",
         "gender": "Female",
         "from_age": 8.0,
         "to_age": 9.0,
@@ -519,7 +519,7 @@ Golden_Retriever_Female=[
         "pic_url": "String"
     },
     {
-        "breed_name": "Golden Retriever",
+        "breed_name": "Golden-Retriever",
         "gender": "Female",
         "from_age": 9.0,
         "to_age": 10.0,
@@ -1062,7 +1062,7 @@ Boxer_Female=[
 ]
 French_Bulldog_Male=[
     {
-        "breed_name": "French Bulldog",
+        "breed_name": "French-Bulldog",
         "gender": "Male",
         "from_age": 0.0,
         "to_age": 1.0,
@@ -1075,7 +1075,7 @@ French_Bulldog_Male=[
         "pic_url": "String"
     },
     {
-        "breed_name": "French Bulldog",
+        "breed_name": "French-Bulldog",
         "gender": "Male",
         "from_age": 1.0,
         "to_age": 2.0,
@@ -1088,7 +1088,7 @@ French_Bulldog_Male=[
         "pic_url": "String"
     },
     {
-        "breed_name": "French Bulldog",
+        "breed_name": "French-Bulldog",
         "gender": "Male",
         "from_age": 2.0,
         "to_age": 3.0,
@@ -1101,7 +1101,7 @@ French_Bulldog_Male=[
         "pic_url": "String"
     },
     {
-        "breed_name": "French Bulldog",
+        "breed_name": "French-Bulldog",
         "gender": "Male",
         "from_age": 3.0,
         "to_age": 4.0,
@@ -1114,7 +1114,7 @@ French_Bulldog_Male=[
         "pic_url": "String"
     },
     {
-        "breed_name": "French Bulldog",
+        "breed_name": "French-Bulldog",
         "gender": "Male",
         "from_age": 4.0,
         "to_age": 5.0,
@@ -1127,7 +1127,7 @@ French_Bulldog_Male=[
         "pic_url": "String"
     },
     {
-        "breed_name": "French Bulldog",
+        "breed_name": "French-Bulldog",
         "gender": "Male",
         "from_age": 5.0,
         "to_age": 6.0,
@@ -1140,7 +1140,7 @@ French_Bulldog_Male=[
         "pic_url": "String"
     },
     {
-        "breed_name": "French Bulldog",
+        "breed_name": "French-Bulldog",
         "gender": "Male",
         "from_age": 6.0,
         "to_age": 7.0,
@@ -1153,7 +1153,7 @@ French_Bulldog_Male=[
         "pic_url": "String"
     },
     {
-        "breed_name": "French Bulldog",
+        "breed_name": "French-Bulldog",
         "gender": "Male",
         "from_age": 7.0,
         "to_age": 8.0,
@@ -1166,7 +1166,7 @@ French_Bulldog_Male=[
         "pic_url": "String"
     },
     {
-        "breed_name": "French Bulldog",
+        "breed_name": "French-Bulldog",
         "gender": "Male",
         "from_age": 8.0,
         "to_age": 9.0,
@@ -1179,7 +1179,7 @@ French_Bulldog_Male=[
         "pic_url": "String"
     },
     {
-        "breed_name": "French Bulldog",
+        "breed_name": "French-Bulldog",
         "gender": "Male",
         "from_age": 9.0,
         "to_age": 10.0,
@@ -1194,7 +1194,7 @@ French_Bulldog_Male=[
 ]
 French_Bulldog_Female=[
     {
-        "breed_name": "French Bulldog",
+        "breed_name": "French-Bulldog",
         "gender": "Female",
         "from_age": 0.0,
         "to_age": 1.0,
@@ -1207,7 +1207,7 @@ French_Bulldog_Female=[
         "pic_url": "String"
     },
     {
-        "breed_name": "French Bulldog",
+        "breed_name": "French-Bulldog",
         "gender": "Female",
         "from_age": 1.0,
         "to_age": 2.0,
@@ -1220,7 +1220,7 @@ French_Bulldog_Female=[
         "pic_url": "String"
     },
     {
-        "breed_name": "French Bulldog",
+        "breed_name": "French-Bulldog",
         "gender": "Female",
         "from_age": 2.0,
         "to_age": 3.0,
@@ -1233,7 +1233,7 @@ French_Bulldog_Female=[
         "pic_url": "String"
     },
     {
-        "breed_name": "French Bulldog",
+        "breed_name": "French-Bulldog",
         "gender": "Female",
         "from_age": 3.0,
         "to_age": 4.0,
@@ -1246,7 +1246,7 @@ French_Bulldog_Female=[
         "pic_url": "String"
     },
     {
-        "breed_name": "French Bulldog",
+        "breed_name": "French-Bulldog",
         "gender": "Female",
         "from_age": 4.0,
         "to_age": 5.0,
@@ -1259,7 +1259,7 @@ French_Bulldog_Female=[
         "pic_url": "String"
     },
     {
-        "breed_name": "French Bulldog",
+        "breed_name": "French-Bulldog",
         "gender": "Female",
         "from_age": 5.0,
         "to_age": 6.0,
@@ -1272,7 +1272,7 @@ French_Bulldog_Female=[
         "pic_url": "String"
     },
     {
-        "breed_name": "French Bulldog",
+        "breed_name": "French-Bulldog",
         "gender": "Female",
         "from_age": 6.0,
         "to_age": 7.0,
@@ -1285,7 +1285,7 @@ French_Bulldog_Female=[
         "pic_url": "String"
     },
     {
-        "breed_name": "French Bulldog",
+        "breed_name": "French-Bulldog",
         "gender": "Female",
         "from_age": 7.0,
         "to_age": 8.0,
@@ -1298,7 +1298,7 @@ French_Bulldog_Female=[
         "pic_url": "String"
     },
     {
-        "breed_name": "French Bulldog",
+        "breed_name": "French-Bulldog",
         "gender": "Female",
         "from_age": 8.0,
         "to_age": 9.0,
@@ -1311,7 +1311,7 @@ French_Bulldog_Female=[
         "pic_url": "String"
     },
     {
-        "breed_name": "French Bulldog",
+        "breed_name": "French-Bulldog",
         "gender": "Female",
         "from_age": 9.0,
         "to_age": 10.0,
