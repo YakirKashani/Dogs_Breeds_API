@@ -327,7 +327,7 @@ def get_all_dogs_data():
     except Exception as e:
         return jsonify({"error": str(e)}),500
 
-# 6. Get all dogs breeds and URL
+# 6. Get all dogs breeds and URL - BUG
 @dogs_blueprint.route('/dogs_data/BreedsAndUrl', methods=['GET'])
 def get_all_dogs_breeds_and_url():
     """
@@ -348,9 +348,8 @@ def get_all_dogs_breeds_and_url():
     try:
         breed_images = []
         for breed in db.list_collection_names():
-            breed_data = db[breed].find_one({},{"_id":0,"pic_url":1})
-            if breed_data and "pic_url" in breed_data:
-                breed_images.append({"breed_name":breed, "pic_url":breed_data["pic_url"]})
+            breed_data = db[breed].find()
+            breed_images.append({"breed_name":breed, "pic_url":breed_data[0]["pic_url"]})
         return jsonify(breed_images),200
     except Exception as e:
         return jsonify({"error": str(e)}),500
