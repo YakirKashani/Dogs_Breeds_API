@@ -16,7 +16,7 @@ Labrador_Retriever_Male = [
         "avg_weight_max": 20.0,
         "avg_drink": 0.8,
         "avg_food": 1.5,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/7/71/ChocolateLabPup.jpg"
     },
     {
         "breed_name": "Labrador-Retriever",
@@ -29,7 +29,7 @@ Labrador_Retriever_Male = [
         "avg_weight_max": 30.0,
         "avg_drink": 1.0,
         "avg_food": 2.0,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/7/71/ChocolateLabPup.jpg"
     },
     {
         "breed_name": "Labrador-Retriever",
@@ -42,7 +42,7 @@ Labrador_Retriever_Male = [
         "avg_weight_max": 35.0,
         "avg_drink": 1.2,
         "avg_food": 2.3,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/7/71/ChocolateLabPup.jpg"
     },
     {
         "breed_name": "Labrador-Retriever",
@@ -55,7 +55,7 @@ Labrador_Retriever_Male = [
         "avg_weight_max": 36.0,
         "avg_drink": 1.3,
         "avg_food": 2.4,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/7/71/ChocolateLabPup.jpg"
     },
     {
         "breed_name": "Labrador-Retriever",
@@ -68,7 +68,7 @@ Labrador_Retriever_Male = [
         "avg_weight_max": 36.5,
         "avg_drink": 1.3,
         "avg_food": 2.5,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Afra_013.jpg"
     },
     {
         "breed_name": "Labrador-Retriever",
@@ -81,7 +81,7 @@ Labrador_Retriever_Male = [
         "avg_weight_max": 37.0,
         "avg_drink": 1.4,
         "avg_food": 2.5,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Afra_013.jpg"
     },
     {
         "breed_name": "Labrador-Retriever",
@@ -94,7 +94,7 @@ Labrador_Retriever_Male = [
         "avg_weight_max": 37.0,
         "avg_drink": 1.4,
         "avg_food": 2.5,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Afra_013.jpg"
     },
     {
         "breed_name": "Labrador-Retriever",
@@ -107,7 +107,7 @@ Labrador_Retriever_Male = [
         "avg_weight_max": 37.0,
         "avg_drink": 1.3,
         "avg_food": 2.4,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Afra_013.jpg"
     },
     {
         "breed_name": "Labrador-Retriever",
@@ -120,7 +120,7 @@ Labrador_Retriever_Male = [
         "avg_weight_max": 36.0,
         "avg_drink": 1.2,
         "avg_food": 2.3,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Afra_013.jpg"
     },
     {
         "breed_name": "Labrador-Retriever",
@@ -133,7 +133,7 @@ Labrador_Retriever_Male = [
         "avg_weight_max": 35.0,
         "avg_drink": 1.1,
         "avg_food": 2.2,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Afra_013.jpg"
     }
 ]
 Labrador_Retriever_Female = [
@@ -148,7 +148,7 @@ Labrador_Retriever_Female = [
         "avg_weight_max": 18.0,
         "avg_drink": 0.7,
         "avg_food": 1.3,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/7/71/ChocolateLabPup.jpg"
     },
     {
         "breed_name": "Labrador-Retriever",
@@ -161,7 +161,7 @@ Labrador_Retriever_Female = [
         "avg_weight_max": 28.0,
         "avg_drink": 0.9,
         "avg_food": 1.8,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/7/71/ChocolateLabPup.jpg"
     },
     {
         "breed_name": "Labrador-Retriever",
@@ -174,7 +174,7 @@ Labrador_Retriever_Female = [
         "avg_weight_max": 32.0,
         "avg_drink": 1.1,
         "avg_food": 2.0,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/7/71/ChocolateLabPup.jpg"
     },
     {
         "breed_name": "Labrador-Retriever",
@@ -187,7 +187,7 @@ Labrador_Retriever_Female = [
         "avg_weight_max": 33.0,
         "avg_drink": 1.2,
         "avg_food": 2.1,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/7/71/ChocolateLabPup.jpg"
     },
     {
         "breed_name": "Labrador-Retriever",
@@ -200,7 +200,7 @@ Labrador_Retriever_Female = [
         "avg_weight_max": 34.0,
         "avg_drink": 1.2,
         "avg_food": 2.2,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Labrador_on_Quantock_%282175262184%29.jpg"
     },
     {
         "breed_name": "Labrador-Retriever",
@@ -213,7 +213,7 @@ Labrador_Retriever_Female = [
         "avg_weight_max": 34.5,
         "avg_drink": 1.3,
         "avg_food": 2.2,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Labrador_on_Quantock_%282175262184%29.jpg"
     },
     {
         "breed_name": "Labrador-Retriever",
@@ -226,7 +226,7 @@ Labrador_Retriever_Female = [
         "avg_weight_max": 34.0,
         "avg_drink": 1.2,
         "avg_food": 2.1,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Labrador_on_Quantock_%282175262184%29.jpg"
     },
     {
         "breed_name": "Labrador-Retriever",
@@ -239,7 +239,7 @@ Labrador_Retriever_Female = [
         "avg_weight_max": 33.0,
         "avg_drink": 1.1,
         "avg_food": 2.0,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Labrador_on_Quantock_%282175262184%29.jpg"
     },
     {
         "breed_name": "Labrador-Retriever",
@@ -252,7 +252,7 @@ Labrador_Retriever_Female = [
         "avg_weight_max": 32.0,
         "avg_drink": 1.0,
         "avg_food": 1.9,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Labrador_on_Quantock_%282175262184%29.jpg"
     },
     {
         "breed_name": "Labrador-Retriever",
@@ -265,7 +265,7 @@ Labrador_Retriever_Female = [
         "avg_weight_max": 31.0,
         "avg_drink": 0.9,
         "avg_food": 1.8,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Labrador_on_Quantock_%282175262184%29.jpg"
     }
 ]
 Golden_Retriever_Male = [
@@ -280,7 +280,7 @@ Golden_Retriever_Male = [
         "avg_weight_max": 19.0,
         "avg_drink": 0.8,
         "avg_food": 1.5,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Golden_retriever_retrieving_a_pheasant.jpg"
     },
     {
         "breed_name": "Golden-Retriever",
@@ -293,7 +293,7 @@ Golden_Retriever_Male = [
         "avg_weight_max": 30.0,
         "avg_drink": 1.0,
         "avg_food": 2.0,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Golden_retriever_retrieving_a_pheasant.jpg"
     },
     {
         "breed_name": "Golden-Retriever",
@@ -306,7 +306,7 @@ Golden_Retriever_Male = [
         "avg_weight_max": 36.0,
         "avg_drink": 1.3,
         "avg_food": 2.3,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Golden_retriever_retrieving_a_pheasant.jpg"
     },
     {
         "breed_name": "Golden-Retriever",
@@ -319,7 +319,7 @@ Golden_Retriever_Male = [
         "avg_weight_max": 38.0,
         "avg_drink": 1.4,
         "avg_food": 2.4,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Golden_retriever_retrieving_a_pheasant.jpg"
     },
     {
         "breed_name": "Golden-Retriever",
@@ -332,7 +332,7 @@ Golden_Retriever_Male = [
         "avg_weight_max": 40.0,
         "avg_drink": 1.4,
         "avg_food": 2.5,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/At_Sticker_Lumis_Golden.JPG"
     },
     {
         "breed_name": "Golden-Retriever",
@@ -345,7 +345,7 @@ Golden_Retriever_Male = [
         "avg_weight_max": 39.0,
         "avg_drink": 1.3,
         "avg_food": 2.4,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/At_Sticker_Lumis_Golden.JPG"
     },
     {
         "breed_name": "Golden-Retriever",
@@ -358,7 +358,7 @@ Golden_Retriever_Male = [
         "avg_weight_max": 38.0,
         "avg_drink": 1.2,
         "avg_food": 2.3,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/At_Sticker_Lumis_Golden.JPG"
     },
     {
         "breed_name": "Golden-Retriever",
@@ -371,7 +371,7 @@ Golden_Retriever_Male = [
         "avg_weight_max": 37.0,
         "avg_drink": 1.1,
         "avg_food": 2.2,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/At_Sticker_Lumis_Golden.JPG"
     },
     {
         "breed_name": "Golden-Retriever",
@@ -384,7 +384,7 @@ Golden_Retriever_Male = [
         "avg_weight_max": 36.0,
         "avg_drink": 1.0,
         "avg_food": 2.0,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/At_Sticker_Lumis_Golden.JPG"
     },
     {
         "breed_name": "Golden-Retriever",
@@ -397,7 +397,7 @@ Golden_Retriever_Male = [
         "avg_weight_max": 35.0,
         "avg_drink": 0.9,
         "avg_food": 1.9,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/At_Sticker_Lumis_Golden.JPG"
     }
 ]
 Golden_Retriever_Female=[    
@@ -412,7 +412,7 @@ Golden_Retriever_Female=[
         "avg_weight_max": 18.0,
         "avg_drink": 0.7,
         "avg_food": 1.4,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/5/59/4_months_old_white_golden_retriever.JPG"
     },
     {
         "breed_name": "Golden-Retriever",
@@ -425,7 +425,7 @@ Golden_Retriever_Female=[
         "avg_weight_max": 27.0,
         "avg_drink": 0.9,
         "avg_food": 1.8,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/5/59/4_months_old_white_golden_retriever.JPG"
     },
     {
         "breed_name": "Golden-Retriever",
@@ -438,7 +438,7 @@ Golden_Retriever_Female=[
         "avg_weight_max": 32.0,
         "avg_drink": 1.2,
         "avg_food": 2.1,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/5/59/4_months_old_white_golden_retriever.JPG"
     },
     {
         "breed_name": "Golden-Retriever",
@@ -451,7 +451,7 @@ Golden_Retriever_Female=[
         "avg_weight_max": 33.0,
         "avg_drink": 1.3,
         "avg_food": 2.2,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/5/59/4_months_old_white_golden_retriever.JPG"
     },
     {
         "breed_name": "Golden-Retriever",
@@ -464,7 +464,7 @@ Golden_Retriever_Female=[
         "avg_weight_max": 34.0,
         "avg_drink": 1.3,
         "avg_food": 2.3,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Golden_Retriever_standing_Tucker.jpg"
     },
     {
         "breed_name": "Golden-Retriever",
@@ -477,7 +477,7 @@ Golden_Retriever_Female=[
         "avg_weight_max": 33.0,
         "avg_drink": 1.2,
         "avg_food": 2.2,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Golden_Retriever_standing_Tucker.jpg"
     },
     {
         "breed_name": "Golden-Retriever",
@@ -490,7 +490,7 @@ Golden_Retriever_Female=[
         "avg_weight_max": 32.0,
         "avg_drink": 1.1,
         "avg_food": 2.1,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Golden_Retriever_standing_Tucker.jpg"
     },
     {
         "breed_name": "Golden-Retriever",
@@ -503,7 +503,7 @@ Golden_Retriever_Female=[
         "avg_weight_max": 31.0,
         "avg_drink": 1.0,
         "avg_food": 2.0,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Golden_Retriever_standing_Tucker.jpg"
     },
     {
         "breed_name": "Golden-Retriever",
@@ -516,7 +516,7 @@ Golden_Retriever_Female=[
         "avg_weight_max": 30.0,
         "avg_drink": 0.9,
         "avg_food": 1.9,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Golden_Retriever_standing_Tucker.jpg"
     },
     {
         "breed_name": "Golden-Retriever",
@@ -529,7 +529,7 @@ Golden_Retriever_Female=[
         "avg_weight_max": 29.0,
         "avg_drink": 0.8,
         "avg_food": 1.8,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Golden_Retriever_standing_Tucker.jpg"
     }
 ]
 Beagel_Male = [{
@@ -543,7 +543,7 @@ Beagel_Male = [{
         "avg_weight_max": 8.0,
         "avg_drink": 0.5,
         "avg_food": 1.0,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Shemsu_Sotis_Perun.jpg"
     },
     {
         "breed_name": "Beagle",
@@ -556,7 +556,7 @@ Beagel_Male = [{
         "avg_weight_max": 12.0,
         "avg_drink": 0.6,
         "avg_food": 1.2,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Shemsu_Sotis_Perun.jpg"
     },
     {
         "breed_name": "Beagle",
@@ -569,7 +569,7 @@ Beagel_Male = [{
         "avg_weight_max": 14.0,
         "avg_drink": 0.7,
         "avg_food": 1.4,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Shemsu_Sotis_Perun.jpg"
     },
     {
         "breed_name": "Beagle",
@@ -582,7 +582,7 @@ Beagel_Male = [{
         "avg_weight_max": 15.0,
         "avg_drink": 0.8,
         "avg_food": 1.5,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Shemsu_Sotis_Perun.jpg"
     },
     {
         "breed_name": "Beagle",
@@ -595,7 +595,7 @@ Beagel_Male = [{
         "avg_weight_max": 16.0,
         "avg_drink": 0.8,
         "avg_food": 1.6,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Beagle_745.jpg"
     },
     {
         "breed_name": "Beagle",
@@ -608,7 +608,7 @@ Beagel_Male = [{
         "avg_weight_max": 16.5,
         "avg_drink": 0.9,
         "avg_food": 1.7,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Beagle_745.jpg"
     },
     {
         "breed_name": "Beagle",
@@ -621,7 +621,7 @@ Beagel_Male = [{
         "avg_weight_max": 17.0,
         "avg_drink": 1.0,
         "avg_food": 1.8,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Beagle_745.jpg"
     },
     {
         "breed_name": "Beagle",
@@ -634,7 +634,7 @@ Beagel_Male = [{
         "avg_weight_max": 17.0,
         "avg_drink": 1.0,
         "avg_food": 1.8,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Beagle_745.jpg"
     },
     {
         "breed_name": "Beagle",
@@ -647,7 +647,7 @@ Beagel_Male = [{
         "avg_weight_max": 17.5,
         "avg_drink": 1.0,
         "avg_food": 1.9,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Beagle_745.jpg"
     },
     {
         "breed_name": "Beagle",
@@ -660,7 +660,7 @@ Beagel_Male = [{
         "avg_weight_max": 18.0,
         "avg_drink": 1.1,
         "avg_food": 2.0,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Beagle_745.jpg"
     }
 
 ]
@@ -676,7 +676,7 @@ Beagel_Female=[
         "avg_weight_max": 7.5,
         "avg_drink": 0.5,
         "avg_food": 1.0,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Beagle_portrait_Camry.jpg"
     },
     {
         "breed_name": "Beagle",
@@ -689,7 +689,7 @@ Beagel_Female=[
         "avg_weight_max": 10.5,
         "avg_drink": 0.6,
         "avg_food": 1.2,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Beagle_portrait_Camry.jpg"
     },
     {
         "breed_name": "Beagle",
@@ -702,7 +702,7 @@ Beagel_Female=[
         "avg_weight_max": 12.0,
         "avg_drink": 0.7,
         "avg_food": 1.3,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Beagle_portrait_Camry.jpg"
     },
     {
         "breed_name": "Beagle",
@@ -715,7 +715,7 @@ Beagel_Female=[
         "avg_weight_max": 13.0,
         "avg_drink": 0.8,
         "avg_food": 1.4,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Beagle_portrait_Camry.jpg"
     },
     {
         "breed_name": "Beagle",
@@ -728,7 +728,7 @@ Beagel_Female=[
         "avg_weight_max": 13.5,
         "avg_drink": 0.8,
         "avg_food": 1.5,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Beagle_Upsy.jpg"
     },
     {
         "breed_name": "Beagle",
@@ -741,7 +741,7 @@ Beagel_Female=[
         "avg_weight_max": 14.0,
         "avg_drink": 0.9,
         "avg_food": 1.6,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Beagle_Upsy.jpg"
     },
     {
         "breed_name": "Beagle",
@@ -754,7 +754,7 @@ Beagel_Female=[
         "avg_weight_max": 14.5,
         "avg_drink": 1.0,
         "avg_food": 1.7,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Beagle_Upsy.jpg"
     },
     {
         "breed_name": "Beagle",
@@ -767,7 +767,7 @@ Beagel_Female=[
         "avg_weight_max": 15.0,
         "avg_drink": 1.0,
         "avg_food": 1.8,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Beagle_Upsy.jpg"
     },
     {
         "breed_name": "Beagle",
@@ -780,7 +780,7 @@ Beagel_Female=[
         "avg_weight_max": 15.5,
         "avg_drink": 1.1,
         "avg_food": 1.9,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Beagle_Upsy.jpg"
     },
     {
         "breed_name": "Beagle",
@@ -793,7 +793,7 @@ Beagel_Female=[
         "avg_weight_max": 16.0,
         "avg_drink": 1.1,
         "avg_food": 2.0,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Beagle_Upsy.jpg"
     }
 ]
 Boxer_Male=[
@@ -808,7 +808,7 @@ Boxer_Male=[
         "avg_weight_max": 13.5,
         "avg_drink": 1.0,
         "avg_food": 2.0,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Perra_Boxer.jpg"
     },
     {
         "breed_name": "Boxer",
@@ -821,7 +821,7 @@ Boxer_Male=[
         "avg_weight_max": 21.0,
         "avg_drink": 1.2,
         "avg_food": 2.2,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Perra_Boxer.jpg"
     },
     {
         "breed_name": "Boxer",
@@ -834,7 +834,7 @@ Boxer_Male=[
         "avg_weight_max": 25.0,
         "avg_drink": 1.3,
         "avg_food": 2.4,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Perra_Boxer.jpg"
     },
     {
         "breed_name": "Boxer",
@@ -847,7 +847,7 @@ Boxer_Male=[
         "avg_weight_max": 27.0,
         "avg_drink": 1.4,
         "avg_food": 2.5,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Perra_Boxer.jpg"
     },
     {
         "breed_name": "Boxer",
@@ -860,7 +860,7 @@ Boxer_Male=[
         "avg_weight_max": 29.0,
         "avg_drink": 1.5,
         "avg_food": 2.6,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Boxer_bringe.jpg"
     },
     {
         "breed_name": "Boxer",
@@ -873,7 +873,7 @@ Boxer_Male=[
         "avg_weight_max": 30.0,
         "avg_drink": 1.6,
         "avg_food": 2.7,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Boxer_bringe.jpg"
     },
     {
         "breed_name": "Boxer",
@@ -886,7 +886,7 @@ Boxer_Male=[
         "avg_weight_max": 31.0,
         "avg_drink": 1.7,
         "avg_food": 2.8,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Boxer_bringe.jpg"
     },
     {
         "breed_name": "Boxer",
@@ -899,7 +899,7 @@ Boxer_Male=[
         "avg_weight_max": 32.0,
         "avg_drink": 1.8,
         "avg_food": 2.9,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Boxer_bringe.jpg"
     },
     {
         "breed_name": "Boxer",
@@ -912,7 +912,7 @@ Boxer_Male=[
         "avg_weight_max": 33.0,
         "avg_drink": 1.8,
         "avg_food": 3.0,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Boxer_bringe.jpg"
     },
     {
         "breed_name": "Boxer",
@@ -925,7 +925,7 @@ Boxer_Male=[
         "avg_weight_max": 34.0,
         "avg_drink": 1.9,
         "avg_food": 3.1,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Boxer_bringe.jpg"
     }
 ]
 Boxer_Female=[
@@ -940,7 +940,7 @@ Boxer_Female=[
         "avg_weight_max": 11.5,
         "avg_drink": 1.0,
         "avg_food": 1.9,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Boxer_puppy_fawn.jpg"
     },
     {
         "breed_name": "Boxer",
@@ -953,7 +953,7 @@ Boxer_Female=[
         "avg_weight_max": 19.0,
         "avg_drink": 1.2,
         "avg_food": 2.0,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Boxer_puppy_fawn.jpg"
     },
     {
         "breed_name": "Boxer",
@@ -966,7 +966,7 @@ Boxer_Female=[
         "avg_weight_max": 22.0,
         "avg_drink": 1.3,
         "avg_food": 2.2,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Boxer_puppy_fawn.jpg"
     },
     {
         "breed_name": "Boxer",
@@ -979,7 +979,7 @@ Boxer_Female=[
         "avg_weight_max": 24.0,
         "avg_drink": 1.4,
         "avg_food": 2.3,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Boxer_puppy_fawn.jpg"
     },
     {
         "breed_name": "Boxer",
@@ -992,7 +992,7 @@ Boxer_Female=[
         "avg_weight_max": 26.0,
         "avg_drink": 1.5,
         "avg_food": 2.5,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/HYPSO.JPG"
     },
     {
         "breed_name": "Boxer",
@@ -1005,7 +1005,7 @@ Boxer_Female=[
         "avg_weight_max": 28.0,
         "avg_drink": 1.6,
         "avg_food": 2.6,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/HYPSO.JPG"
     },
     {
         "breed_name": "Boxer",
@@ -1018,7 +1018,7 @@ Boxer_Female=[
         "avg_weight_max": 29.0,
         "avg_drink": 1.7,
         "avg_food": 2.7,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/HYPSO.JPG"
     },
     {
         "breed_name": "Boxer",
@@ -1031,7 +1031,7 @@ Boxer_Female=[
         "avg_weight_max": 30.0,
         "avg_drink": 1.8,
         "avg_food": 2.8,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/HYPSO.JPG"
     },
     {
         "breed_name": "Boxer",
@@ -1044,7 +1044,7 @@ Boxer_Female=[
         "avg_weight_max": 31.0,
         "avg_drink": 1.8,
         "avg_food": 2.9,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/HYPSO.JPG"
     },
     {
         "breed_name": "Boxer",
@@ -1057,7 +1057,7 @@ Boxer_Female=[
         "avg_weight_max": 32.0,
         "avg_drink": 1.9,
         "avg_food": 3.0,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/HYPSO.JPG"
     }
 ]
 French_Bulldog_Male=[
@@ -1072,7 +1072,7 @@ French_Bulldog_Male=[
         "avg_weight_max": 6.0,
         "avg_drink": 0.4,
         "avg_food": 0.8,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/1/18/2008-07-28_Dog_at_Frolick_Field.jpg"
     },
     {
         "breed_name": "French-Bulldog",
@@ -1085,7 +1085,7 @@ French_Bulldog_Male=[
         "avg_weight_max": 8.0,
         "avg_drink": 0.5,
         "avg_food": 1.0,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/1/18/2008-07-28_Dog_at_Frolick_Field.jpg"
     },
     {
         "breed_name": "French-Bulldog",
@@ -1098,7 +1098,7 @@ French_Bulldog_Male=[
         "avg_weight_max": 9.0,
         "avg_drink": 0.6,
         "avg_food": 1.2,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/1/18/2008-07-28_Dog_at_Frolick_Field.jpg"
     },
     {
         "breed_name": "French-Bulldog",
@@ -1111,7 +1111,7 @@ French_Bulldog_Male=[
         "avg_weight_max": 10.0,
         "avg_drink": 0.7,
         "avg_food": 1.3,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/1/18/2008-07-28_Dog_at_Frolick_Field.jpg"
     },
     {
         "breed_name": "French-Bulldog",
@@ -1124,7 +1124,7 @@ French_Bulldog_Male=[
         "avg_weight_max": 11.0,
         "avg_drink": 0.7,
         "avg_food": 1.4,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Encontro_Dog_Institute_%2841893165422%29.jpg"
     },
     {
         "breed_name": "French-Bulldog",
@@ -1137,7 +1137,7 @@ French_Bulldog_Male=[
         "avg_weight_max": 11.5,
         "avg_drink": 0.8,
         "avg_food": 1.5,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Encontro_Dog_Institute_%2841893165422%29.jpg"
     },
     {
         "breed_name": "French-Bulldog",
@@ -1150,7 +1150,7 @@ French_Bulldog_Male=[
         "avg_weight_max": 12.0,
         "avg_drink": 0.8,
         "avg_food": 1.6,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Encontro_Dog_Institute_%2841893165422%29.jpg"
     },
     {
         "breed_name": "French-Bulldog",
@@ -1163,7 +1163,7 @@ French_Bulldog_Male=[
         "avg_weight_max": 12.5,
         "avg_drink": 0.9,
         "avg_food": 1.7,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Encontro_Dog_Institute_%2841893165422%29.jpg"
     },
     {
         "breed_name": "French-Bulldog",
@@ -1176,7 +1176,7 @@ French_Bulldog_Male=[
         "avg_weight_max": 13.0,
         "avg_drink": 0.9,
         "avg_food": 1.8,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Encontro_Dog_Institute_%2841893165422%29.jpg"
     },
     {
         "breed_name": "French-Bulldog",
@@ -1189,7 +1189,7 @@ French_Bulldog_Male=[
         "avg_weight_max": 13.5,
         "avg_drink": 1.0,
         "avg_food": 1.9,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Encontro_Dog_Institute_%2841893165422%29.jpg"
     }
 ]
 French_Bulldog_Female=[
@@ -1204,7 +1204,7 @@ French_Bulldog_Female=[
         "avg_weight_max": 6.0,
         "avg_drink": 0.4,
         "avg_food": 0.8,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Sir_Pinch_a_Lot_Frenchie.jpg"
     },
     {
         "breed_name": "French-Bulldog",
@@ -1217,7 +1217,7 @@ French_Bulldog_Female=[
         "avg_weight_max": 8.0,
         "avg_drink": 0.5,
         "avg_food": 1.0,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Sir_Pinch_a_Lot_Frenchie.jpg"
     },
     {
         "breed_name": "French-Bulldog",
@@ -1230,7 +1230,7 @@ French_Bulldog_Female=[
         "avg_weight_max": 9.0,
         "avg_drink": 0.6,
         "avg_food": 1.2,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Sir_Pinch_a_Lot_Frenchie.jpg"
     },
     {
         "breed_name": "French-Bulldog",
@@ -1243,7 +1243,7 @@ French_Bulldog_Female=[
         "avg_weight_max": 10.0,
         "avg_drink": 0.7,
         "avg_food": 1.3,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Sir_Pinch_a_Lot_Frenchie.jpg"
     },
     {
         "breed_name": "French-Bulldog",
@@ -1256,7 +1256,7 @@ French_Bulldog_Female=[
         "avg_weight_max": 10.5,
         "avg_drink": 0.7,
         "avg_food": 1.4,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/3/30/French_bulldog_%287982288518%29.jpg"
     },
     {
         "breed_name": "French-Bulldog",
@@ -1269,7 +1269,7 @@ French_Bulldog_Female=[
         "avg_weight_max": 11.0,
         "avg_drink": 0.8,
         "avg_food": 1.5,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/3/30/French_bulldog_%287982288518%29.jpg"
     },
     {
         "breed_name": "French-Bulldog",
@@ -1282,7 +1282,7 @@ French_Bulldog_Female=[
         "avg_weight_max": 11.5,
         "avg_drink": 0.8,
         "avg_food": 1.6,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/3/30/French_bulldog_%287982288518%29.jpg"
     },
     {
         "breed_name": "French-Bulldog",
@@ -1295,7 +1295,7 @@ French_Bulldog_Female=[
         "avg_weight_max": 12.0,
         "avg_drink": 0.9,
         "avg_food": 1.7,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/3/30/French_bulldog_%287982288518%29.jpg"
     },
     {
         "breed_name": "French-Bulldog",
@@ -1308,7 +1308,7 @@ French_Bulldog_Female=[
         "avg_weight_max": 12.5,
         "avg_drink": 0.9,
         "avg_food": 1.8,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/3/30/French_bulldog_%287982288518%29.jpg"
     },
     {
         "breed_name": "French-Bulldog",
@@ -1321,7 +1321,7 @@ French_Bulldog_Female=[
         "avg_weight_max": 13.0,
         "avg_drink": 1.0,
         "avg_food": 1.9,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/3/30/French_bulldog_%287982288518%29.jpg"
     }
 ]
 Poodle_Male = [
@@ -1336,7 +1336,7 @@ Poodle_Male = [
         "avg_weight_max": 6.0,
         "avg_drink": 0.5,
         "avg_food": 1.0,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Bell_Gold_Poodle.jpg"
     },
     {
         "breed_name": "Poodle",
@@ -1349,7 +1349,7 @@ Poodle_Male = [
         "avg_weight_max": 9.0,
         "avg_drink": 0.6,
         "avg_food": 1.2,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Bell_Gold_Poodle.jpg"
     },
     {
         "breed_name": "Poodle",
@@ -1362,7 +1362,7 @@ Poodle_Male = [
         "avg_weight_max": 10.0,
         "avg_drink": 0.7,
         "avg_food": 1.4,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Bell_Gold_Poodle.jpg"
     },
     {
         "breed_name": "Poodle",
@@ -1375,7 +1375,7 @@ Poodle_Male = [
         "avg_weight_max": 11.0,
         "avg_drink": 0.8,
         "avg_food": 1.5,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Bell_Gold_Poodle.jpg"
     },
     {
         "breed_name": "Poodle",
@@ -1388,7 +1388,7 @@ Poodle_Male = [
         "avg_weight_max": 11.5,
         "avg_drink": 0.8,
         "avg_food": 1.6,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/en/d/da/Cafe-au-lait_standard_poodle.jpg"
     },
     {
         "breed_name": "Poodle",
@@ -1401,7 +1401,7 @@ Poodle_Male = [
         "avg_weight_max": 12.0,
         "avg_drink": 0.9,
         "avg_food": 1.7,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/en/d/da/Cafe-au-lait_standard_poodle.jpg"
     },
     {
         "breed_name": "Poodle",
@@ -1414,7 +1414,7 @@ Poodle_Male = [
         "avg_weight_max": 12.5,
         "avg_drink": 0.9,
         "avg_food": 1.8,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/en/d/da/Cafe-au-lait_standard_poodle.jpg"
     },
     {
         "breed_name": "Poodle",
@@ -1427,7 +1427,7 @@ Poodle_Male = [
         "avg_weight_max": 13.0,
         "avg_drink": 1.0,
         "avg_food": 1.9,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/en/d/da/Cafe-au-lait_standard_poodle.jpg"
     },
     {
         "breed_name": "Poodle",
@@ -1440,7 +1440,7 @@ Poodle_Male = [
         "avg_weight_max": 13.5,
         "avg_drink": 1.0,
         "avg_food": 2.0,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/en/d/da/Cafe-au-lait_standard_poodle.jpg"
     },
     {
         "breed_name": "Poodle",
@@ -1453,7 +1453,7 @@ Poodle_Male = [
         "avg_weight_max": 14.0,
         "avg_drink": 1.1,
         "avg_food": 2.1,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/en/d/da/Cafe-au-lait_standard_poodle.jpg"
     }
 ]
 Poodle_Female = [
@@ -1468,7 +1468,7 @@ Poodle_Female = [
         "avg_weight_max": 5.5,
         "avg_drink": 0.4,
         "avg_food": 0.9,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Freddie_%288467901543%29.jpg"
     },
     {
         "breed_name": "Poodle",
@@ -1481,7 +1481,7 @@ Poodle_Female = [
         "avg_weight_max": 8.0,
         "avg_drink": 0.5,
         "avg_food": 1.0,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Freddie_%288467901543%29.jpg"
     },
     {
         "breed_name": "Poodle",
@@ -1494,7 +1494,7 @@ Poodle_Female = [
         "avg_weight_max": 9.0,
         "avg_drink": 0.6,
         "avg_food": 1.2,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Freddie_%288467901543%29.jpg"
     },
     {
         "breed_name": "Poodle",
@@ -1507,7 +1507,7 @@ Poodle_Female = [
         "avg_weight_max": 9.5,
         "avg_drink": 0.7,
         "avg_food": 1.3,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Freddie_%288467901543%29.jpg"
     },
     {
         "breed_name": "Poodle",
@@ -1520,7 +1520,7 @@ Poodle_Female = [
         "avg_weight_max": 10.0,
         "avg_drink": 0.7,
         "avg_food": 1.4,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Silver_Miniature_Poodle_stacked.jpg"
     },
     {
         "breed_name": "Poodle",
@@ -1533,7 +1533,7 @@ Poodle_Female = [
         "avg_weight_max": 10.5,
         "avg_drink": 0.8,
         "avg_food": 1.5,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Silver_Miniature_Poodle_stacked.jpg"
     },
     {
         "breed_name": "Poodle",
@@ -1546,7 +1546,7 @@ Poodle_Female = [
         "avg_weight_max": 11.0,
         "avg_drink": 0.8,
         "avg_food": 1.6,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Silver_Miniature_Poodle_stacked.jpg"
     },
     {
         "breed_name": "Poodle",
@@ -1559,7 +1559,7 @@ Poodle_Female = [
         "avg_weight_max": 11.5,
         "avg_drink": 0.9,
         "avg_food": 1.7,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Silver_Miniature_Poodle_stacked.jpg"
     },
     {
         "breed_name": "Poodle",
@@ -1572,7 +1572,7 @@ Poodle_Female = [
         "avg_weight_max": 12.0,
         "avg_drink": 0.9,
         "avg_food": 1.8,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Silver_Miniature_Poodle_stacked.jpg"
     },
     {
         "breed_name": "Poodle",
@@ -1585,7 +1585,7 @@ Poodle_Female = [
         "avg_weight_max": 12.5,
         "avg_drink": 1.0,
         "avg_food": 1.9,
-        "pic_url": "String"
+        "pic_url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Silver_Miniature_Poodle_stacked.jpg"
     }
 ]
 
